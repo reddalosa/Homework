@@ -1,7 +1,7 @@
 const randomNumber = Math.floor(Math.random () *7 + 2);
 console.log(randomNumber);
 
-var promptValue = prompt(`Guess a Number between 1-10`);
+var promptValue = prompt(`Guess a Number between 1 and 10`);
 var num = parseFloat(promptValue);
 
 for (Attempt = 0; Attempt < 10; Attempt++) {
