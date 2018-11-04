@@ -1,4 +1,4 @@
-const randomNumber = Math.floor(Math.random () *9 + 2);
+const randomNumber = Math.floor(Math.random () *7 + 2);
 console.log(randomNumber);
 
 var promptValue = prompt(`Guess a Number between 1-10`);
